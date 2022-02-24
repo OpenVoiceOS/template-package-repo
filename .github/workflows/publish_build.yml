@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: ${{ github.head_ref }}
+          ref: dev
       - name: Setup Python
         uses: actions/setup-python@v1
         with:
@@ -22,16 +22,16 @@ jobs:
         run: |
           VER=$(python setup.py --version)
           python scripts/bump_build.py
-      - name: Push to Master
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Increment Version
-          branch: master
-      - name: Push to Dev
+      - name: Commit to dev
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Increment Version
           branch: dev
+      - name: Push dev -> master
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
       - name: version
         run: echo "::set-output name=version::$(python setup.py --version)"
         id: version
