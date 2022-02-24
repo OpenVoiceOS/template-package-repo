@@ -10,9 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
           ref: dev
       - name: Push dev -> master
         uses: ad-m/github-push-action@master
+
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
