@@ -33,6 +33,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
+          force: true
       - name: version
         run: echo "::set-output name=version::$(python setup.py --version)"
         id: version
