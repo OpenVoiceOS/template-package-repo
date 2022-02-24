@@ -4,6 +4,7 @@
 - create dev and master branches
 - make dev default branch
 - set PYPI_TOKEN in action secrets
+- disable wiki/projects/merge commits under repo settings
 - edit license_tests.py settings to your liking
 - on PR to dev -> alpha version published and github prerelease created
 - merge dev -> master when ready for release
