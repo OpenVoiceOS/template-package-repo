@@ -1,0 +1,19 @@
+# This workflow will generate a distribution and upload it to PyPI
+
+name: Force Push dev -> master
+on:
+  workflow_dispatch:
+
+jobs:
+  build_and_publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: dev
+      - name: Push dev -> master
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: dev2master
+          push_options: '--force'
+          branch: master

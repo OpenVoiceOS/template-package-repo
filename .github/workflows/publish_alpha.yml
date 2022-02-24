@@ -34,10 +34,11 @@ jobs:
         run: |
           VER=$(python setup.py --version)
           python scripts/bump_alpha.py
-      - name: Push Version Change
+      - name: Push Version Change to Dev
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Increment Version
+          branch: dev
       - name: version
         run: echo "::set-output name=version::$(python setup.py --version)"
         id: version
