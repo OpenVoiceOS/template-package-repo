@@ -17,7 +17,7 @@ workflows are setup so you never touch a version file, make a github release or 
   - alpha version published and github prerelease created
   - run codecov
   - run unit tests
-  - run license tests
+  - run license tests if requirements.txt changes
   - run build tests
 - on commit to master
   - run unit tests
