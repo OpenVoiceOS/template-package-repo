@@ -58,10 +58,6 @@ jobs:
       - name: Build Distribution Packages
         run: |
           python setup.py bdist_wheel
-      - name: Publish to Test PyPI
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-          password: ${{secrets.PYPI_TOKEN}}
       - name: Prepare next Minor version
         run: echo "::set-output name=version::$(python setup.py --version)"
         id: alpha
@@ -74,3 +70,7 @@ jobs:
         with:
           commit_message: Prepare Next Version
           branch: dev
+      - name: Publish to Test PyPI
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          password: ${{secrets.PYPI_TOKEN}}
