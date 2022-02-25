@@ -23,8 +23,9 @@ workflows are setup so you never touch a version file, make a github release or 
   - run unit tests
   - run license tests
   - run build tests
-- manually trigger one of the workflows for major/minor/build release in the actions tab
+- manually trigger one of the workflows for major/minor/build/alpha release in the actions tab
   - increase package version
+  - generate changelog
   - commit version bump to dev
   - merge dev to master
   - create github release
