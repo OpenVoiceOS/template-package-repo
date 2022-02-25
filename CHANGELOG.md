@@ -1,12 +1,31 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/template-package-repo/tree/HEAD)
+## [V2.1.1a1](https://github.com/OpenVoiceOS/template-package-repo/tree/V2.1.1a1) (2022-02-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V2.1.0...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V3.0.1...V2.1.1a1)
+
+## [V3.0.1](https://github.com/OpenVoiceOS/template-package-repo/tree/V3.0.1) (2022-02-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V3.0.0a1...V3.0.1)
+
+## [V3.0.0a1](https://github.com/OpenVoiceOS/template-package-repo/tree/V3.0.0a1) (2022-02-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V3.0.0...V3.0.0a1)
+
+## [V3.0.0](https://github.com/OpenVoiceOS/template-package-repo/tree/V3.0.0) (2022-02-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V2.1.1...V3.0.0)
 
 **Implemented enhancements:**
 
 - please add docs [\#9](https://github.com/OpenVoiceOS/template-package-repo/issues/9)
+
+## [V2.1.1](https://github.com/OpenVoiceOS/template-package-repo/tree/V2.1.1) (2022-02-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V2.1.0...V2.1.1)
+
+**Implemented enhancements:**
+
 - this is a feature request! [\#7](https://github.com/OpenVoiceOS/template-package-repo/issues/7)
 
 **Merged pull requests:**
