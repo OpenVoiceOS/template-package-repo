@@ -12,6 +12,7 @@ on:
       - 'examples/**'
       - '.github/**'
       - 'LICENSE'
+      - 'CHANGELOG.md'
       - 'readme.md'
       - 'scripts/**'
   workflow_dispatch:
