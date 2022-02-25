@@ -1,5 +1,9 @@
 # Changelog
 
+## [V4.0.0a1](https://github.com/OpenVoiceOS/template-package-repo/tree/V4.0.0a1) (2022-02-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V2.1.1a1...V4.0.0a1)
+
 ## [V2.1.1a1](https://github.com/OpenVoiceOS/template-package-repo/tree/V2.1.1a1) (2022-02-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V3.0.1...V2.1.1a1)
