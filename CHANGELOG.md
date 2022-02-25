@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/template-package-repo/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V2.1.1...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V3.0.0...HEAD)
+
+**Implemented enhancements:**
+
+- Thing [\#12](https://github.com/OpenVoiceOS/template-package-repo/pull/12) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V3.0.0](https://github.com/OpenVoiceOS/template-package-repo/tree/V3.0.0) (2022-02-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/template-package-repo/compare/V2.1.1...V3.0.0)
 
 **Implemented enhancements:**
 
