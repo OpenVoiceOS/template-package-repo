@@ -3,9 +3,31 @@ on:
   pull_request:
     branches:
       - dev
+    paths-ignore:
+      - 'replace_package_name/version.py'
+      - 'requirements/**'
+      - 'examples/**'
+      - '.github/**'
+      - '.gitignore'
+      - 'LICENSE'
+      - 'CHANGELOG.md'
+      - 'MANIFEST.in'
+      - 'readme.md'
+      - 'scripts/**'
   push:
     branches:
       - master
+    paths-ignore:
+      - 'replace_package_name/version.py'
+      - 'requirements/**'
+      - 'examples/**'
+      - '.github/**'
+      - '.gitignore'
+      - 'LICENSE'
+      - 'CHANGELOG.md'
+      - 'MANIFEST.in'
+      - 'readme.md'
+      - 'scripts/**'
   workflow_dispatch:
 
 jobs:
